@@ -1,2 +1,2 @@
 # bigdata-central.github.io
-Some thoughts, musings and a logbook
+Some thoughts, musings and a logbook.
