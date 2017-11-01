@@ -4,6 +4,21 @@
 
 <h1>Foobar's Logbook</h1>
 
+<h2>2017-11-01</h2>
+ <p>
+Finally, k8s toy cluster is up and running; it was not working completely out of the box but the obstacles was not so hard - I just needed
+to disable swapping and lookup a networking regarded issue on GitHub.  Now we are set:
+
+<blockquote>
+  root@lenovo:~# kubectl get nodes
+NAME      STATUS    ROLES     AGE       VERSION
+asus      Ready     <none>    26s       v1.8.2
+foo       Ready     <none>    15h       v1.8.2
+lenovo    Ready     master    17h       v1.8.2
+
+  </blockquote>
+  
+  </p>
   
 <h2>2017-10-30</h2>
 Last two days have shown that:
